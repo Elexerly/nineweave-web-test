@@ -1,11 +1,11 @@
-Nineweave Round 4f (mandatory screen name)
+Nineweave Round 4g (email verification + auto tutorial)
 engine: 4.7.2.stable.official.ed1daf0bf
 preset: Web / Compatibility / variant/thread_support=false
 mode: --export-release
-built: 2026-11-15T22:01:00Z
-source SHA: 1acc4cbbfc071baedfc163cdd9007f8a35f695c7
+built: 2026-11-15T22:32:30Z
+source SHA: e2571c21bb665dcbabbe68b1d0ff05f909ded399
 branch: godot-game
-tag: round4f
-tree: untracked Codex test logs and capture helper only
-staging: /tmp/nineweave-export.q9BuIT/project
+tag: round4g
+tree: leftover untracked test logs and capture_r4f helper only (not in commit)
+staging: /tmp/nineweave-export.cxyXai/project
 notices: THIRD_PARTY_NOTICES.md and LICENSES/*OFL.txt
