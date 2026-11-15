@@ -1,9 +1,10 @@
-Nineweave Round 4c (online)
+Nineweave Round 4d (hero video)
 engine: 4.7.2.stable.official.ed1daf0bf
 preset: Web / Compatibility / variant/thread_support=false
 mode: --export-release
-built: 2026-11-15T20:13:05Z
-source SHA: 8f6b4c765cc7bbbf2944c79ae03a2396d2cb0c6b
+built: 2026-11-15T21:16:55Z
+source SHA: a9ebb2756d63cec15d1defe6a8f335ad8ce51181
 branch: godot-game
-tag: round4c
+tag: round4d
+tree: clean
 notices: THIRD_PARTY_NOTICES.md and LICENSES/*OFL.txt
