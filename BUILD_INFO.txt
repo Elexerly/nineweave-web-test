@@ -1,10 +1,9 @@
-Nineweave Round 4b
+Nineweave Round 4c (online)
 engine: 4.7.2.stable.official.ed1daf0bf
 preset: Web / Compatibility / variant/thread_support=false
 mode: --export-release
-built: 2026-11-15T17:55:02Z
-source SHA: 146a8c5 (tag round4b)
+built: 2026-11-15T20:13:05Z
+source SHA: 8f6b4c765cc7bbbf2944c79ae03a2396d2cb0c6b
 branch: godot-game
-tree: Owner requested no git commands
-staging: /tmp/nineweave-export.KcaQPs/project
+tag: round4c
 notices: THIRD_PARTY_NOTICES.md and LICENSES/*OFL.txt
