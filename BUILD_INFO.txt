@@ -1,8 +1,10 @@
-Nineweave Round 3b + sound fix
+Nineweave Round 3c
 engine: 4.7.2.stable.official.ed1daf0bf
 preset: Web / Compatibility / variant/thread_support=false
 mode: --export-release
-built: 2026-11-15T12:16:33Z
-source SHA: 42b1fc1df514512285e5b1602656198735d5d419
-branch: soundfix (tag round3d-sound)
+built: 2026-11-15T12:40:41Z
+source SHA: 9d1d23d94687fabcf9fe0d37a0544196b1492c6c
+branch: godot-game
+tree: clean committed tree
+staging: /tmp/nineweave-export.dy8cSV/project
 notices: THIRD_PARTY_NOTICES.md and LICENSES/*OFL.txt
