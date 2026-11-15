@@ -1,0 +1,10 @@
+Nineweave Round 1
+engine: 4.7.2.stable.official.ed1daf0bf
+preset: Web / Compatibility / variant/thread_support=false
+mode: --export-release
+built: 2026-11-15T03:28:20Z
+source SHA: 3753e82cd0605354e5619fb763cc4c6f18d20bab
+branch: godot-game
+tree: UNCOMMITTED CHANGES PRESENT (not a pure commit build)
+staging: /tmp/nineweave-export.yYPJJe/project
+notices: THIRD_PARTY_NOTICES.md and LICENSES/*OFL.txt
