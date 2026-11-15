@@ -6,6 +6,6 @@
 
 Fonts are bundled unmodified. All three complete OFL texts are copied beside the Web distribution in `LICENSES/` by the export script.
 
-The requester supplied `reference/nineweave_reference.jpg`. The decorative statue, portrait, castle, sky, and crystal crops in `assets/art/` derive from that supplied reference through `tools/crop_reference.py`; no claim of an independent art license is made. No UI, board, device frame, lettering, or logos are used as a screenshot substitute. Gold frames, title lettering, board, marks, backgrounds and effects are live Godot elements.
+The requester supplied `reference/nineweave_reference.jpg`. The decorative statue, portrait, castle, sky, ruins and crystal crops in `assets/art/` derive from that supplied reference through `tools/crop_reference.py` (native size, feathered alpha masks; a soft cut-out removes logo lettering next to the knight); no claim of an independent art license is made. No UI, board, device frame, lettering, or logos are used as a screenshot substitute. Gold frames, title lettering, board, marks, backgrounds and effects are live Godot elements.
 
 Godot Engine is distributed under the MIT license. Engine license and third-party notices: https://godotengine.org/license/ . No engine binaries or export templates are vendored here.
