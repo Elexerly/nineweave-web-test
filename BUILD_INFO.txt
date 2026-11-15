@@ -1,10 +1,10 @@
-Nineweave Round 3
+Nineweave Round 3b
 engine: 4.7.2.stable.official.ed1daf0bf
 preset: Web / Compatibility / variant/thread_support=false
 mode: --export-release
-built: 2026-11-15T07:52:55Z
-source SHA: 5adc70cbeb51a1a68852c88abff9d1f609dc44ac
+built: 2026-11-15T10:10:46Z
+source SHA: 6b843adf9aca7c603c7b67c2fbf3b73a5aa471f0
 branch: godot-game
 tree: clean committed tree
-staging: /tmp/nineweave-export.DMCdl6/project
+staging: /tmp/nineweave-export.6w2AfO/project
 notices: THIRD_PARTY_NOTICES.md and LICENSES/*OFL.txt
