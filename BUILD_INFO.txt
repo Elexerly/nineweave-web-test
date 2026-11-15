@@ -1,11 +1,11 @@
-Nineweave Round 4e (tutorial + optional email)
+Nineweave Round 4f (mandatory screen name)
 engine: 4.7.2.stable.official.ed1daf0bf
 preset: Web / Compatibility / variant/thread_support=false
 mode: --export-release
-built: 2026-11-15T21:41:03Z
-source SHA: 2baa26ed1b8f0eb000e74e80aae060f34aa4542e
+built: 2026-11-15T22:01:00Z
+source SHA: 1acc4cbbfc071baedfc163cdd9007f8a35f695c7
 branch: godot-game
-tag: round4e
-tree: untracked Codex test logs only
-staging: /tmp/nineweave-export.N1o2vI/project
+tag: round4f
+tree: untracked Codex test logs and capture helper only
+staging: /tmp/nineweave-export.q9BuIT/project
 notices: THIRD_PARTY_NOTICES.md and LICENSES/*OFL.txt
