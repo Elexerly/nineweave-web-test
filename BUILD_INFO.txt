@@ -1,14 +1,14 @@
-Nineweave Round 5f (local intro audio, held result frame, email delivery feedback)
+Nineweave Round 5g (account sign-in, verified onboarding, safe rename, video mix headroom)
 engine: 4.7.2.stable.official.ed1daf0bf
 preset: Web / Compatibility / variant/thread_support=false
 mode: --export-release
-built: 2026-11-16T16:09:47Z
-source SHA: 3b2bab59054bcbba90dda8acd6a237654ce9dc51
-branch: plax/round5f-audio-email
+built: 2026-11-16T16:28:43Z
+source SHA: c34ad8e5485d02ef27890a47ddf8eaf4f83b3622
+branch: plax/round5g-profile-flow
 tag: pending
-tree: godot/characters/cinematic.gd godot/characters/hero_video_overlay.gd godot/main/main.gd godot/net/device_account.gd godot/tests/run_hero_video_tests.gd godot/tests/run_round4g_tests.gd godot/tests/run_round5c_tests.gd godot/tests/run_round5d_tests.gd godot/tools/export_web.sh godot/ui/email_screen.gd godot/ROUND5F.md 
-staging: /tmp/nineweave-export.M7ygRU/project
+tree: godot/characters/hero_video_overlay.gd godot/fx/sound.gd godot/main/main.gd godot/net/device_account.gd godot/tests/run_hero_video_tests.gd godot/tests/run_round4g_tests.gd godot/tools/export_web.sh godot/tools/run_tests.sh godot/ui/online_screen.gd godot/ROUND5G.md godot/net/account_recovery.gd godot/tests/run_recovery_tests.gd godot/tests/run_rename_tests.gd godot/ui/recovery_screen.gd 
+staging: /tmp/nineweave-export.nFZAfw/project
 notices: THIRD_PARTY_NOTICES.md and LICENSES/*OFL.txt
-release source commit: 21c8c872791994b6802913c608887805c13fae93
-release source tree: dc2bfdf1e06f9c8489d7fc87744d600bf86a21f9
-provenance: export made before source commit; executable source unchanged after export; report updated with test results before commit.
+release source commit: 45fdafe90e807102edfbb208310a558e9966f050
+release source tree: 9385fbb72974da73fc2d370d777237cc17f43673
+provenance: export preceded commit; executable source unchanged afterward; tests/report updated before commit.
