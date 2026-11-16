@@ -1,12 +1,11 @@
-Nineweave Round 5o (comic lettering + victory spacing + editable login email)
+Nineweave Round 5p (trimmed Kellen intro)
 engine: 4.7.2.stable.official.ed1daf0bf
 preset: Web / Compatibility / variant/thread_support=false
 mode: --export-release
-built: 2026-11-16T19:54:15Z
-source SHA: 4fbd5f6ef6f894e314eaea2d981721b2ebcb6695
-source tree: 094ab521c80d3f085eb4d9d8f23340a8306e408c (identical to tested local commit 4ea181e)
-branch: plax/round5o-visual-polish
+built: 2026-11-16T20:15:54Z
+source SHA: d9d23669d36d9bcd47590e7b394bcc189bc6b996
+branch: plax/round5p-kellen-intro
 tag: pending
 tree: 
-staging: /workspace/scratch/64760a398b82/qa-5o/export-stage/project
+staging: /workspace/scratch/64760a398b82/qa-5p/final-export-stage/project
 notices: THIRD_PARTY_NOTICES.md and LICENSES/*OFL.txt
