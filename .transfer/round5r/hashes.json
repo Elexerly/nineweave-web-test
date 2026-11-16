@@ -1,0 +1,26 @@
+{
+  "index.pck": {
+    "size": 16846636,
+    "sha256": "0b7072458376987600cd3b5edb3b69b10a70bddb14ffb4384576497931afad25"
+  },
+  "index.pck.part1": {
+    "size": 8400000,
+    "sha256": "92a37f7dcd9d2e9dd146fea06233d008b6412628de844f6fe0d1221cff9324ba"
+  },
+  "index.pck.part2": {
+    "size": 8446636,
+    "sha256": "8a6d2c7ebaa2991ba82801c08f8b33218a316a3a91dd19ceb339c94bffc5fd5a"
+  },
+  "index.html": {
+    "size": 5622,
+    "sha256": "95b236b29e9fe34ef63f652bd45eadcf8728bbecf8ca7c8b0b26886a83f1f0b8"
+  },
+  "BUILD_INFO.txt": {
+    "size": 420,
+    "sha256": "8372a3959f689475a5c834d8d7583e7d3064b226feb9261b90f44f708bfd72a2"
+  },
+  "hero_video/professor_gilt/intro.ogv": {
+    "size": 4085813,
+    "sha256": "c3a73d19f59ba4b99c5db18d662c1836262098c109f56120c32e7527dde81637"
+  }
+}
