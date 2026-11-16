@@ -1,0 +1,19 @@
+{
+  "source": "Elexerly/Nineweave@51d5db0310774b1519c78f30bead6649482a5ac3",
+  "base_test_commit": "d70f78e23a5b894f79524a1786d6017e4b971f00",
+  "parts": [
+    {
+      "path": ".transfer/round5m/index.pck.part1",
+      "bytes": 8400000,
+      "sha256": "a886eadb9844c35d5e9acc8cdd16c769d94c623d5f3bf0587606a21b9a210874"
+    },
+    {
+      "path": ".transfer/round5m/index.pck.part2",
+      "bytes": 8444780,
+      "sha256": "b41c6de6b2170b4bb8a287eeaf2c5734443bd57a40ce2ce3bdfbc573335bc8ca"
+    }
+  ],
+  "assembled_bytes": 16844780,
+  "assembled_sha256": "09bf6bde56cc0bb0ed0047469d5d3af6091f9fc29b813aa02dec588167ee46bc",
+  "instructions": "DO NOT MERGE this transfer branch. Concatenate parts in order and verify SHA256; replace test-main index.pck, index.html and BUILD_INFO.txt only. Preserve all others; no production or backend writes."
+}

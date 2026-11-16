@@ -1,0 +1,13 @@
+Nineweave Round 5m (Beth-only ending fade + larger selector + account-bound hero preference)
+engine: 4.7.2.stable.official.ed1daf0bf
+preset: Web / Compatibility / variant/thread_support=false
+mode: --export-release
+built: 2026-11-16T18:30:12Z
+source SHA: 636c114eb07655bfa9a55414485461e590ed57e4
+branch: plax/round5m
+tag: pending
+tree: 
+staging: /workspace/scratch/64760a398b82/nineweave-5m-stage/project
+notices: THIRD_PARTY_NOTICES.md and LICENSES/*OFL.txt
+published_source: 51d5db0310774b1519c78f30bead6649482a5ac3
+source_tree: 909222c45de27bf42daec84f317317fc40cff0cb
