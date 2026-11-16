@@ -1,11 +1,13 @@
-Nineweave Round 5c (dual versus videos, victory screen, online tournaments, readable online lobby)
+Nineweave Round 5e (manual tutorial controls, cold-cache versus intros, Round 5d signup fix)
 engine: 4.7.2.stable.official.ed1daf0bf
 preset: Web / Compatibility / variant/thread_support=false
 mode: --export-release
-built: 2026-11-16T03:56:18Z
-source SHA: 93aad5ddb2a8a80bead9595ab51658cc5971b1c0
-branch: godot-game
-tag: round5c
+built: 2026-11-16T15:30:38Z
+source SHA: 7a88f733745aa20a009226f49f0d4297e536cfee
+branch: plax/nineweave-tutorial-versus
+tag: pending
 tree: 
-staging: /tmp/nineweave-export.RgWLMV/project
+staging: /tmp/nineweave-export.T4oIfk/project
 notices: THIRD_PARTY_NOTICES.md and LICENSES/*OFL.txt
+published source commit: 3b2bab59054bcbba90dda8acd6a237654ce9dc51
+source tree (identical to local build commit): 6af624a261d236dad1313c9285073e0923b0770e
