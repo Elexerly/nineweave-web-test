@@ -1,0 +1,18 @@
+{
+  "index.pck": {
+    "bytes": 16847980,
+    "sha256": "5305102d74ea982c10fbca28e0e7e5ae7e620a6107b31aab414dcf47434cc205"
+  },
+  "index.html": {
+    "bytes": 5540,
+    "sha256": "cf480a09aa5c39780dec6f1aeaa9f877a3de0caaa7ca1a822ade8531a194d605"
+  },
+  "hero_video/kellen_byte/intro.ogv": {
+    "bytes": 3551833,
+    "sha256": "96c20b4943a07501e2648451c93e5259ac7bd96e85d1ec35226d7dba872fabe7"
+  },
+  "BUILD_INFO.txt": {
+    "bytes": 427,
+    "sha256": "537c03efea7339c1c006a69d5c7a3aee8c055a93d0faf51f5f5488f79c49e0b1"
+  }
+}
