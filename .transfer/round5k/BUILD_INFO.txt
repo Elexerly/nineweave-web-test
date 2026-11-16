@@ -1,0 +1,13 @@
+Nineweave Round 5k (arena entrance + independent hero audio + account switching)
+engine: 4.7.2.stable.official.ed1daf0bf
+preset: Web / Compatibility / variant/thread_support=false
+mode: --export-release
+built: 2026-11-16T18:15:53Z
+source SHA: 979aecfdf7b2bdcbb506e9fc6d5196d073e9e5b1
+branch: plax/round5k
+tag: pending
+tree: 
+staging: /tmp/nineweave-export.5FPtv7/project
+notices: THIRD_PARTY_NOTICES.md and LICENSES/*OFL.txt
+published_source: 9ad8ee5d8ba227416d4cc6086d82173d519e25ed
+source_tree: d3f558b3b6c45ae11f47d8c23a7e4723f93fb29b
