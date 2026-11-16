@@ -1,11 +1,11 @@
-Nineweave Round 5a (waiting room, turn timer, chat)
+Nineweave Round 5b (tournament bracket, all hero videos)
 engine: 4.7.2.stable.official.ed1daf0bf
 preset: Web / Compatibility / variant/thread_support=false
 mode: --export-release
-built: 2026-11-16T01:23:26Z
-source SHA: ef1bde9847abb9abd355a72c31a7743a75369a94
+built: 2026-11-16T02:11:45Z
+source SHA: 826de59e90c95ca7d07e06c4950b753c31423af5
 branch: godot-game
-tag: round5a
+tag: round5b
 tree: 
-staging: /tmp/nineweave-export.tmekdi/project
+staging: /tmp/nineweave-export.C31Z1V/project
 notices: THIRD_PARTY_NOTICES.md and LICENSES/*OFL.txt
