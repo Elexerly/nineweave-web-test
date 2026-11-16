@@ -1,14 +1,14 @@
-Nineweave Round 5g (account sign-in, verified onboarding, safe rename, video mix headroom)
+Nineweave Round 5h (sign-in input navigation hotfix)
 engine: 4.7.2.stable.official.ed1daf0bf
 preset: Web / Compatibility / variant/thread_support=false
 mode: --export-release
-built: 2026-11-16T16:28:43Z
-source SHA: c34ad8e5485d02ef27890a47ddf8eaf4f83b3622
-branch: plax/round5g-profile-flow
+built: 2026-11-16T16:43:34Z
+source SHA: b3acc40c08190c06346bd1ae58ca0c797f3fbe56
+branch: plax/round5h-signin-input
 tag: pending
-tree: godot/characters/hero_video_overlay.gd godot/fx/sound.gd godot/main/main.gd godot/net/device_account.gd godot/tests/run_hero_video_tests.gd godot/tests/run_round4g_tests.gd godot/tools/export_web.sh godot/tools/run_tests.sh godot/ui/online_screen.gd godot/ROUND5G.md godot/net/account_recovery.gd godot/tests/run_recovery_tests.gd godot/tests/run_rename_tests.gd godot/ui/recovery_screen.gd 
-staging: /tmp/nineweave-export.nFZAfw/project
+tree: godot/main/main.gd godot/tests/run_recovery_tests.gd godot/tools/export_web.sh godot/ROUND5H.md 
+staging: /tmp/nineweave-export.d7XwWc/project
 notices: THIRD_PARTY_NOTICES.md and LICENSES/*OFL.txt
-release source commit: 45fdafe90e807102edfbb208310a558e9966f050
-release source tree: 9385fbb72974da73fc2d370d777237cc17f43673
+release source commit: 648ce8700c285948e566c4ec8dc9bb13fe2d01af
+release source tree: 0a284a0efd566e1dfeac126a8e1b2f78f27af955
 provenance: export preceded commit; executable source unchanged afterward; tests/report updated before commit.
