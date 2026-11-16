@@ -1,13 +1,13 @@
-Nineweave Round 5i (single-screen versus lightning reveal + owner announcer)
+Nineweave Round 5j (versus reveal + owner audio + confirmed account deletion)
 engine: 4.7.2.stable.official.ed1daf0bf
 preset: Web / Compatibility / variant/thread_support=false
 mode: --export-release
-built: 2026-11-16T17:26:24Z
-source SHA: 9d63b1d70901b0740712ab04c02477d1eb251fc5
-branch: plax/versus-lightning
+built: 2026-11-16T17:42:31Z
+source SHA: 6facacf26945e04a1d0e4cd06d1466353daba2d0
+branch: plax/round5j-deletion-client
 tag: pending
 tree: 
-staging: /tmp/nwe/cinematic-audio-stage/project
+staging: /workspace/scratch/64760a398b82/nineweave-round5j-export-stage/project
 notices: THIRD_PARTY_NOTICES.md and LICENSES/*OFL.txt
-published_source: 9d63b1d70901b0740712ab04c02477d1eb251fc5
-source_tree: 46535c1d6e7fe4173379b822fc881aff2ea323cc
+published_source: 6facacf26945e04a1d0e4cd06d1466353daba2d0
+source_tree: 40c645b537475014c49545746cad27f57514ca3c
