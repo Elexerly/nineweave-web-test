@@ -1,0 +1,12 @@
+Nineweave Round 5o (comic lettering + victory spacing + editable login email)
+engine: 4.7.2.stable.official.ed1daf0bf
+preset: Web / Compatibility / variant/thread_support=false
+mode: --export-release
+built: 2026-11-16T19:54:15Z
+source SHA: 4fbd5f6ef6f894e314eaea2d981721b2ebcb6695
+source tree: 094ab521c80d3f085eb4d9d8f23340a8306e408c (identical to tested local commit 4ea181e)
+branch: plax/round5o-visual-polish
+tag: pending
+tree: 
+staging: /workspace/scratch/64760a398b82/qa-5o/export-stage/project
+notices: THIRD_PARTY_NOTICES.md and LICENSES/*OFL.txt
