@@ -1,13 +1,14 @@
-Nineweave Round 5e (manual tutorial controls, cold-cache versus intros, Round 5d signup fix)
+Nineweave Round 5f (local intro audio, held result frame, email delivery feedback)
 engine: 4.7.2.stable.official.ed1daf0bf
 preset: Web / Compatibility / variant/thread_support=false
 mode: --export-release
-built: 2026-11-16T15:30:38Z
-source SHA: 7a88f733745aa20a009226f49f0d4297e536cfee
-branch: plax/nineweave-tutorial-versus
+built: 2026-11-16T16:09:47Z
+source SHA: 3b2bab59054bcbba90dda8acd6a237654ce9dc51
+branch: plax/round5f-audio-email
 tag: pending
-tree: 
-staging: /tmp/nineweave-export.T4oIfk/project
+tree: godot/characters/cinematic.gd godot/characters/hero_video_overlay.gd godot/main/main.gd godot/net/device_account.gd godot/tests/run_hero_video_tests.gd godot/tests/run_round4g_tests.gd godot/tests/run_round5c_tests.gd godot/tests/run_round5d_tests.gd godot/tools/export_web.sh godot/ui/email_screen.gd godot/ROUND5F.md 
+staging: /tmp/nineweave-export.M7ygRU/project
 notices: THIRD_PARTY_NOTICES.md and LICENSES/*OFL.txt
-published source commit: 3b2bab59054bcbba90dda8acd6a237654ce9dc51
-source tree (identical to local build commit): 6af624a261d236dad1313c9285073e0923b0770e
+release source commit: 21c8c872791994b6802913c608887805c13fae93
+release source tree: dc2bfdf1e06f9c8489d7fc87744d600bf86a21f9
+provenance: export made before source commit; executable source unchanged after export; report updated with test results before commit.
