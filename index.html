@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-		<title>Nineweave</title>
+		<title>Lexerly Test</title>
 		<style>
 html, body, #canvas {
 	margin: 0;
@@ -109,11 +109,31 @@ body {
 			<div id="status-notice"></div>
 		</div>
 
+		<script>window.LEXERLY_TEST_API_URL="https://br-still-mode-bdsyavce-lexerlytest.compute.c-8.us-east-2.aws.neon.tech";</script>
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":false,"executable":"index","experimentalVK":true,"fileSizes":{"index.pck":16846636,"index.wasm":39514754,"index.pck?v=0b70724583769876":16846636},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4,"mainPack":"index.pck?v=0b70724583769876"};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":false,"executable":"index","experimentalVK":true,"fileSizes":{"index.wasm":39514754,"index.pck":18155036,"index.pck?v=963bf9fbe11cfccb":18155036},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4,"mainPack":"index.pck?v=963bf9fbe11cfccb"};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
+// Chunked transport only; verified bytes are preloaded through Godot's official API.
+const lexerlyPackParts = [{"url": "lexerly-pack-0.bin", "bytes": 7000000}, {"url": "lexerly-pack-1.bin", "bytes": 7000000}, {"url": "lexerly-pack-2.bin", "bytes": 4155036}];
+const nativePreload = engine.preloadFile.bind(engine);
+engine.preloadFile = async function(file, path) {
+ if (file !== GODOT_CONFIG.mainPack) return nativePreload(file,path);
+ const parts = await Promise.all(lexerlyPackParts.map(async part => {
+  const response = await fetch(part.url + '?v=963bf9fbe11cfccb');
+  if (!response.ok) throw new Error('Game download failed. Please refresh.');
+  const data = await response.arrayBuffer();
+  if (data.byteLength !== part.bytes) throw new Error('Incomplete game download. Please refresh.');
+  return new Uint8Array(data);
+ }));
+ const combined = new Uint8Array(18155036); let at = 0;
+ for (const part of parts) { combined.set(part,at); at += part.length; }
+ const digest = Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',combined))).map(x=>x.toString(16).padStart(2,'0')).join('');
+ if (digest !== '963bf9fbe11cfccb3a7cb6c38471bdedc038fa539bca54dbbe75cc760c68f22a') throw new Error('Game integrity check failed. Please refresh.');
+ return nativePreload(combined.buffer,path);
+};
+
 
 (function () {
 	const statusOverlay = document.getElementById('status');

@@ -1,11 +1,5 @@
-Nineweave Round 5r (Professor trimmed intro)
-engine: 4.7.2.stable.official.ed1daf0bf
-preset: Web / Compatibility / variant/thread_support=false
-mode: --export-release
-built: 2026-11-16T23:22:08Z
-source SHA: 0d70a8dcad95d516a5dcc75ce242835ce9f98130
-branch: plax/round5r-professor-intro
-tag: pending
-tree: 
-staging: /workspace/scratch/64760a398b82/qa-5r/stage/project
-notices: THIRD_PARTY_NOTICES.md and LICENSES/*OFL.txt
+LEXERLY isolated test export
+source=f161c4b16a2ffcab6c20774ab6e92d3912e02eaa
+pack_sha256=963bf9fbe11cfccb3a7cb6c38471bdedc038fa539bca54dbbe75cc760c68f22a
+API: explicit HTTPS test URL or same-origin only (lexerly_test feature)
+test_api=https://br-still-mode-bdsyavce-lexerlytest.compute.c-8.us-east-2.aws.neon.tech
