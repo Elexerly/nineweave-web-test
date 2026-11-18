@@ -1,7 +1,7 @@
-Lexerly test build only. Do not replace production with this folder.
+Lexerly TEST CLIENT only. Do not replace the production website with this folder.
 
-Source client: plax/lexerly-integration-nov18. Current host/server source must come from separate plax/lexerly-test-backend-nov18 (base 040c06c), never inherited backend on client branch.
+At Patrick's explicit request, this separate test client connects to the working LIVE Nineweave API and database at https://nineweave.grok.me. Existing email-code sign-in and existing player accounts are used. Account changes and match results are real shared game data, not disposable isolated test data.
 
-Set window.LEXERLY_TEST_API_URL to the approved isolated HTTPS API before Godot starts, or serve this folder from the isolated API's own origin. The custom lexerly_test export feature never falls back to the live Nineweave API. Without a test API this static bundle supports offline/computer play only, not account/secret-unlock testing.
+The client pack/source and all video assets are unchanged by this routing update. The explicit HTTPS API configuration is read before Godot starts. No production site files, database credentials or migrations were changed.
 
-The existing 66 videos are preserved, plus James II tech and JB Rocker (4 videos). OGV tracks are independently decoded by the established HeroAudio path; embedded video-player sound muted. Native build is separately prepared.
+Pending server compatibility: live API must accept jb_circuit/jb_rocker and Prof26/JB2026 before testing those new character unlocks online. Existing characters/accounts remain supported.

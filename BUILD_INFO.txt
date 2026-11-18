@@ -1,5 +1,5 @@
-LEXERLY isolated test export
+LEXERLY test client - shared live accounts
 source=f161c4b16a2ffcab6c20774ab6e92d3912e02eaa
 pack_sha256=963bf9fbe11cfccb3a7cb6c38471bdedc038fa539bca54dbbe75cc760c68f22a
 API: explicit HTTPS test URL or same-origin only (lexerly_test feature)
-test_api=https://br-still-mode-bdsyavce-lexerlytest.compute.c-8.us-east-2.aws.neon.tech
+test_api=https://nineweave.grok.me
